@@ -1,0 +1,23 @@
+{
+  "name": "alphabot2-pi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "repo-watcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node repo-watcher.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opendata-heilbronn/alphabot2-pi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opendata-heilbronn/alphabot2-pi/issues"
+  },
+  "homepage": "https://github.com/opendata-heilbronn/alphabot2-pi#readme",
+  "devDependencies": {
+    "git-repo-watch": "^1.0.0"
+  }
+}
