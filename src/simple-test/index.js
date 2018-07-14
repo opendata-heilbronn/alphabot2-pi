@@ -25,7 +25,7 @@ var beep = function(count) {
 var setup = () => {
     return new Promise((resolve, reject) => {
 
-        gpiop.setup(buzzer, gpio.DIR_OUT, on)
+        gpiop.setup(buzzer, gpio.DIR_OUT)
             .then(() => {
                 beep(2);
             })
